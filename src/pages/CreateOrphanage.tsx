@@ -89,7 +89,7 @@ if(!event.target.files){
               />
 
               {
-                position.latitude != 0 && (
+                position.latitude !== 0 && (
                   <Marker 
                   icon={mapIcon} 
                   position ={[
